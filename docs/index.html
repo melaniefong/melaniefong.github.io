@@ -2,32 +2,120 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-   
+   <style>
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      display: flex;
+      justify-content: center;
+    }
+    </style>
 
+    <style>
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      body{
+        background-color: #f3d2c1;
+      }
+
+      .name{
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+      }
+      
+      .link{
+        background-color: #f25f4c;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+      .link a{
+        color: #fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .items{
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+      .banner{
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons{
+        display: flex;
+        justify-content: space-around;
+      }
+  
+    </style>
+  
   </head>
   
 
   <body>
-    <h1>Melanie Fong</h1>
-
-    <img src="https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/37328540_1720512824662437_5332989887043862528_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=109&_nc_ohc=BVfs8M_IRacAX_cX7kx&edm=ABmJApABAAAA&ccb=7-5&ig_cache_key=MTgyODY4NDE0NjQ5MTM2MjU2MQ%3D%3D.2-ccb7-5&oh=00_AfCHJ5Q7AvXlAk6AVjURNl2bVoAOKTsNtazvqZJX2FgYrA&oe=63C669D2&_nc_sid=6136e7">
+    <div class="items">
+    <div class="banner">
+      <img class="banner-image" src="https://scontent-ord5-2.xx.fbcdn.net/v/t1.6435-9/37103930_2125112271063159_317297340421505024_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=6eCuR0i_UUYAX8d1BWy&_nc_ht=scontent-ord5-2.xx&oh=00_AfAwR6SHHgckYlJMCiOPBOpWSOqzMsMUnruCHHBGcZujsg&oe=63F02942" alt="Melanie Fong headshot" class="banner-image">
+    </div>
     
-    <div>
+    <div class="name">
+      <h1>Melanie Fong</h1>
+    </div>
+    
+    <div class="social-icons">
       <a href="https://www.instagram.com/melanie.fong/" target="_blank">instagram</a>
-   </div>
    
-   <div>
-    <a href="https://www.facebook.com/melaniefong88/" target="_blank">facebook</a>
-   </div>
+     <a href="https://www.facebook.com/melaniefong88/" target="_blank">facebook</a>
    
-   <div>
     <a href="https://www.linkedin.com/in/melanie-fong-07b5b5188/" target="_blank">linkedin</a>
-   </div>
+
+    <a href="https://www.pinterest.com/melaniefong00/" target="_blank">pinterest</a> 
     
-  
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="microscope.jpg">
+    <a href="https://doi.org/10.1101/2022.11.24.517565" target="_blank">Research</a> 
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="spotify.jpg">
+    <a href="https://open.spotify.com/user/melaniefong8" target="_blank">Spotify</a>
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="soundfile.jpg">
+    <a href="https://soundcloud.com/user-56897301" target="_blank">Soundcloud</a>
+  </div>
+</div>
 
   </body>
-
 
 
 </html>
